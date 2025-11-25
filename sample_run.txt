@@ -1,0 +1,10 @@
+--- ISSUES ---
+(3, 'Missing customer')
+(3, 'Missing product')
+(3, 'Invalid status: UnknownStatus')
+
+--- REPORT ---
+['OrderID', 'Customer', 'Product', 'CreatedAt', 'Status', 'Comment']
+[1, 'Shaik Mohammed Asad', 'Market Data Feed', '2025-11-25T20:32:15.301830', 'Completed', 'Provisioned successfully']
+[2, 'Test Customer', 'Index Subscription', '2025-11-25T20:32:15.302553', 'Processing', 'Waiting for billing validation']
+\n
