@@ -1,22 +1,38 @@
-
 # Order Processing & Subscription Management Simulation
 
-A small, beginner-friendly Python + SQLite project that simulates:
-- creating customers, products, and orders
-- updating order status
-- creating and cancelling subscriptions
-- validating orders for missing references or invalid status
-- generating a simple report
+**A small, beginner-friendly Python + SQLite simulation that demonstrates basic order lifecycle, subscription management, validation checks and simple operational reporting.**
 
-Files:
-- schema.sql : SQL schema for tables
-- demo.db : sample SQLite database (created by running the demo)
-- order_system.py : main script (contains functions + demo run)
-- sample_run.txt : console output from a demo run
+---
 
-How to run:
-1. (Optional) Create a Python virtual environment
-2. Run: `python3 order_system.py`
-3. The script will create `demo.db` in the same folder and print a validation report.
+## Demo
+This repository contains a simple CLI/demo script that:
+- creates customers, products and orders
+- updates order status
+- creates and cancels subscriptions
+- validates orders for missing references or invalid status
+- generates a tabular operational report
 
-This project is intentionally simple so you can add it to your resume quickly and explain it in interviews.
+---
+
+## Files
+- `order_system.py` — main Python script (functions + demo run)
+- `schema.sql` — SQLite schema for customers, products, orders, subscriptions
+- `demo.db` — sample database created by the demo (optional)
+- `sample_run.txt` — console output captured from a demo run
+- `README.md` — this file
+
+---
+
+## Tech
+- Python 3 (no external dependencies)
+- SQLite (built-in)
+- Works on macOS / Linux / Windows
+
+---
+
+## Quick start (run locally)
+1. (Optional) create a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate     # macOS / Linux
+# or  .\venv\Scripts\Activate.ps1  # Windows PowerShell
